@@ -1,9 +1,10 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: Internationalize your Angular app
+description: How to internationalize an angular app start to finish
+date: 2021-10-06
 tags:
-  - another tag
+  - Angular
+  - i18n
 layout: layouts/post.njk
 ---
 
@@ -13,7 +14,7 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 
-```text/2-3
+```js/2/2
 // this is a command
 function myCommand() {
 	let counter = 0;

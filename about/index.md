@@ -8,3 +8,7 @@ eleventyNavigation:
 ---
 
 My name is Anthony and I don't know what to write here.
+
+<a href="https://github.com/a-scar">Github</a>
+<a href="https://twitter.com/a_scardapane">Twitter</a>
+<a href="https://www.instagram.com/anscardapane">Instagram</a>
