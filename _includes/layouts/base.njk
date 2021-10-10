@@ -27,7 +27,9 @@
     <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
       {{ content | safe }}
     </main>
-    <footer></footer>
+    <footer class="footer">
+      &#169; {{ page.date | dateYearString }} - present Anthony Scardapane. All Rights Reserved.
+    </footer>
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
