@@ -13,6 +13,7 @@
             {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
             <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
           {% endfor %} #}
+          <div class="postlist-date"> &nbsp;(~{{ post | readingTime }})</div>
     </li>
   {% endfor %}
 </ol>
