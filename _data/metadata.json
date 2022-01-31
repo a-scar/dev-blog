@@ -1,21 +1,21 @@
 {
   "title": "anthony writes words",
-  "url": "https://anthonywriteswords.net/",
+  "url": "https://anthonyscardapane.com/",
   "language": "en",
   "description": "Mostly developer focused posts to help learn as I figure some of this stuff out",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am writing about development",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://anthonyscardapane.com/feed/feed.json"
   },
   "author": {
     "name": "Anthony Scardapane",
     "email": "an.scardapane@gmail.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://anthonyscardapane.com/about/"
   }
 }

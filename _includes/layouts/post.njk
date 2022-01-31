@@ -4,6 +4,8 @@ templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
 
+<h4>Read time: ~{{ content | readingTime }}</h4>
+
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 {%- for tag in tags | filterTagList -%}
 {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
