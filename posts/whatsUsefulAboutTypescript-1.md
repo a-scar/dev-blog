@@ -1,10 +1,11 @@
 ---
-title: Understanding Typescript
+title: What's useful about Typescript?
 description: How changing your mental model can help understand Typescript
 date: 2022-01-29
 tags:
   - Typescript
 layout: layouts/post.njk
+permalink: "/posts/whatsUsefulAboutTypescript-1/"
 ---
 
 ## Before reading...
@@ -111,6 +112,6 @@ printSkateboardPart({
 
 No more type annotations! Just a plain old vanilla Javascript file that can be executed in any Javascript runtime (Web Browsers, Node.js, Deno, etc.) **Typescript provides value by catching bugs in our code before they are executed.** While this example is small, you can imagine projects with thousands of lines of code across hundred of files. Adopting Typescript in a project is just another tool we can use to help diminish future headaches our code may cause.
 
-## What is a type?
+## Conclusion
 
-Coming soon...
+This is by no means an in-depth overview of all that Typescript has to offer. I just decided to pick some of the most important aspects of the language to me, and try and give a somewhat deeper look into how it all works together.
