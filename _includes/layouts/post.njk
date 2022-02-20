@@ -4,16 +4,18 @@ templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
 
-<h4>Read time: ~{{ content | readingTime }}</h4>
-<h5>Views: {{ getPageViews | getPageViewCount(page.fileSlug) }}</h5>
-
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 {%- for tag in tags | filterTagList -%}
 {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
 
+<h4>Read time 📖 ~{{ content | readingTime }}</h4>
+
+
 {{ content | safe }}
+
+<h4>Views 👀 {{ getPageViews | getPageViewCount(page.fileSlug) }}</h4>
 
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
