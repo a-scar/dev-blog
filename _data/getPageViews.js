@@ -9,9 +9,9 @@ module.exports = async () => {
         type: "json"
       });
 
-      return response.blogList ?? []
+      return response.blogList
     } catch (error) {
-      return { statusCode: 500, body: error.toString() }
+      return []
     }
 };
 
