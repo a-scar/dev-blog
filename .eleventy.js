@@ -110,8 +110,15 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addNunjucksFilter('getPageViewCount', (blogList, pageTitle) => {
    const blogPost = blogList.find(([post]) => post === pageTitle.toLowerCase())
+
     if(blogPost) {
-      const [, count] = blogPost;
+      let [title, count] = blogPost;
+
+      //changed title of blog and lost views
+      if(title === 'whatsusefulabouttypescript-1') {
+        const oldTitle = blogList.find(([post]) => post === 'understandingtypesintypescript-1')
+        count += oldTitle[1]
+      }
       return count;
     }
     return ''
