@@ -108,6 +108,15 @@ module.exports = function (eleventyConfig) {
     ghostMode: false,
   });
 
+  eleventyConfig.addNunjucksFilter('getPageViewCount', (blogList, pageTitle) => {
+   const blogPost = blogList.find(([post]) => post === pageTitle.toLowerCase())
+    if(blogPost) {
+      const [, count] = blogPost;
+      return count;
+    }
+    return ''
+  })
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
