@@ -1,13 +1,10 @@
-const Cache = require("@11ty/eleventy-cache-assets");
+const fetch = require('node-fetch');
 
 module.exports = async () => {
     try {
       let endpoint = 'https://anthony-scardapane.deno.dev/blog/'
 
-      const response =  await Cache(endpoint, {
-        duration: "4h",
-        type: "json"
-      });
+      const response =  await fetch(endpoint);
 
       return response.blogList
     } catch (error) {
