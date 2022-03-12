@@ -15,9 +15,10 @@ code[class*="language-"], pre[class*="language-"] {
 	hyphens: none;
 	background: #272822;
 	color: #f8f8f2;
+  border-radius: 10px;
 }
 pre[class*="language-"] {
-	padding: 1.5em 0;
+	padding: 1rem;
 	margin: .5em 0;
 	overflow: auto;
 }

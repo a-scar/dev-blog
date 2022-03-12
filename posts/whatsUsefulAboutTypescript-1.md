@@ -8,12 +8,6 @@ layout: layouts/post.njk
 permalink: "/posts/whatsUsefulAboutTypescript-1/"
 ---
 
-## Before reading...
-
-This post assumes a basic understanding of functions and objects. Although, my goal for these posts is to make it fairly easy to understand for folks at any level.
-
-## What's useful about Typescript?
-
 Something important to understand right out of the gate is that Typescript is not an entirely different language than Javascript. If you take an error free .js file and change the extension to .ts the result of running the file will be equivalent. However, a .ts file is not a valid .js file. This is because Typescript is a superset of Javascript; which is a fancy way of saying it has all the language features of Javascript plus extra "stuff" specific to Typescript. All those "extra language features" Typescript provides would cause a Javascript program to have syntax errors. This will make a bit more sense shortly once we discuss what Typescript is actually doing with our code.
 
 One of these "extra" things that Typescript brings to the table is type annotations. A type annotation is essentially a contract between a function or variable and its intended value. Let's explore what this means a bit...
@@ -112,6 +106,6 @@ printSkateboardPart({
 
 No more type annotations! Just a plain old vanilla Javascript file that can be executed in any Javascript runtime (Web Browsers, Node.js, Deno, etc.) **Typescript provides value by catching bugs in our code before they are executed.** While this example is small, you can imagine projects with thousands of lines of code across hundred of files. Adopting Typescript in a project is just another tool we can use to help diminish future headaches our code may cause.
 
-## Conclusion
+### Conclusion
 
 This is by no means an in-depth overview of all that Typescript has to offer. I just decided to pick some of the most important aspects of the language to me, and try and give a somewhat deeper look into how it all works together.

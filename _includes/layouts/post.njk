@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
+<p class="section-header">{{ title }}</p>
 
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 {%- for tag in tags | filterTagList -%}
@@ -10,12 +10,7 @@ templateClass: tmpl-post
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
 
-<h4>Read time 📖 ~{{ content | readingTime }}</h4>
-
-
 {{ content | safe }}
-
-<h4>Views 👀 {{ getPageViews | getPageViewCount(page.fileSlug) }}</h4>
 
 {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}

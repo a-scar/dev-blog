@@ -1,9 +1,11 @@
 ---
-title: '🚢 🌊'
+title: 'Fast boat slow shore'
 description: Fast boat slow shore
 date: 2022-02-16
 layout: layouts/post.njk
 permalink: "/posts/fastBoats-3/"
+tags:
+- Lyrics
 ---
 
 fast boat, slow shore

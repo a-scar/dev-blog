@@ -5,16 +5,13 @@ eleventyNavigation:
   order: 1
 ---
 {% set maxPosts = collections.posts.length | min(3) %}
-<h2>Most recent stuff</h2>
+<p class="section-header">Recent Posts</p>
 
 {% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
-
-
-<h2>Find a category</h2>
+<p class="section-header">Explore Topics</p>
 {% for tag in collections.tagList %}
   <span class="catergory-tags">
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
