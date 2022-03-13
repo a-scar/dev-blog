@@ -166,7 +166,6 @@ a[href].postlist-linkfocus {
   margin-top: 0.5em; /* 6px /12 */
   margin-bottom: 0.5em; /* 6px /12 */
   color: var(--darkgray);
-  max-width: 100px;
   border: 2px solid var(--lightblue);
   border-radius: 0.7em; /* 3px /12 */
   text-decoration: none;
@@ -180,6 +179,8 @@ a[href].post-tag:hover,
 a[href].post-tag:focus {
   background-color: var(--lightblue);
   color: var(--white);
+  transform: translateY(-6px);
+  transition: transform 250ms; /*fix doom flicker */
 }
 .postlist-item > .post-tag {
   align-self: center;
