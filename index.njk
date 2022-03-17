@@ -13,8 +13,9 @@ eleventyNavigation:
 
 <p class="section-header">Explore Topics</p>
 {% for tag in collections.tagList %}
-  <span class="catergory-tags">
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-  </span>
+   <a href="{{ tagUrl | url }}" class="post-tag">
+      <span class="post-tag-contents">{{ tag }}</span>
+   </a>
+
 {% endfor %}
