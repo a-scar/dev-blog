@@ -7,12 +7,24 @@ eleventyNavigation:
   order: 3
 ---
 
-My name is Anthony and I want to learn how to teach people.
+<p>My name is Anthony and I want to learn how to teach people.</p>
 
-This website is an attempt at teaching people programming.
+<p>This website is an attempt at teaching people programming.</p>
 
-Oh, and whatever else I want to write. My house my rules ✌️
+<p>Oh, and whatever else I want to write. My house my rules ✌️</p>
 
-<a href="https://github.com/a-scar">Github</a>
-<a href="https://twitter.com/a_scardapane">Twitter</a>
-<a href="https://www.instagram.com/anscardapane">Instagram</a>
+
+<div class="social-link-container">
+  <a class="social-link" href="https://twitter.com/a_scardapane">
+    <img style="width: 45px" class="social-link-img" src="../img/Twitter.png" alt="twitter logo">
+  </a>
+
+  <a class="social-link" href="https://github.com/a-scar">
+    <img class="social-link-img" src="../img/Octocat.png" alt="octocat github logo">
+  </a>
+
+  <a class="social-link" href="https://www.instagram.com/anscardapane">
+  <img class="social-link-img" src="../img/Instagram.png" alt="instagram logo">
+  </a>
+</div>
+
