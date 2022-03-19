@@ -15,16 +15,20 @@ eleventyNavigation:
 
 
 <div class="social-link-container">
-  <a class="social-link" href="https://twitter.com/a_scardapane">
-    <img style="width: 45px" class="social-link-img" src="../img/Twitter.png" alt="twitter logo">
-  </a>
 
-  <a class="social-link" href="https://github.com/a-scar">
-    <img class="social-link-img" src="../img/Octocat.png" alt="octocat github logo">
-  </a>
+  <span class="social-link-child">
+    <a class="social-link" href="https://twitter.com/a_scardapane">
+      <img class="social-link-img" src="../img/Twitter.png" alt="twitter logo">
+      Twitter
+    </a>
+  </span>
 
-  <a class="social-link" href="https://www.instagram.com/anscardapane">
-  <img class="social-link-img" src="../img/Instagram.png" alt="instagram logo">
-  </a>
+  <span class="social-link-child">
+    <a class="social-link" href="https://github.com/a-scar">
+      <img class="social-link-img" src="../img/Octocat.png" alt="octocat github logo">
+      Github
+    </a>
+  </span>
+
 </div>
 
