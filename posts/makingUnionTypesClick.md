@@ -88,5 +88,5 @@ With this in mind, it might not seem overly useful to apply union types when Typ
 
 ### Narrowing Unions
 
-still writing...
+still writing...(Chatting with George R. R. Martin & Patrick Rothfuss)
 
