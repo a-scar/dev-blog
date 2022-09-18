@@ -4,6 +4,7 @@
       <a href="{{ post.url | url }}" class="postlist-link">
         {% if post.data.title %}
           {{ post.data.title }}
+          <span class="postlist-description">{{ post.data.description }}</span>
         {% else %}
           <code>{{ post.url }}</code>
         {% endif %}

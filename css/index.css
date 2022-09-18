@@ -116,7 +116,13 @@ footer {
   display: flex;
   align-items: baseline;
   counter-increment: start-from -1;
-  line-height: 1.8;
+  line-height: calc(1em + 0.725rem);
+}
+.postlist-description {
+  display: flex;
+  font-size: 0.6em;
+  color: hsl(225deg, 15%, 50%);
+  line-height: calc(1em + 0.725rem);
 }
 .postlist-item:before {
   display: inline-block;
@@ -236,14 +242,13 @@ a[href].direct-link:focus:visited,
 
 
 .social-link-container {
-  margin-top: 20px;
+  max-width: 300px;
   display: flex;
+  margin: 40px auto auto;
 }
 
 .social-link-child {
-  display: flex;
-  align-items: baseline;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .social-link {

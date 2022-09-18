@@ -1,6 +1,6 @@
 ---
 title: 'Fast boat slow shore'
-description: Fast boat slow shore
+description: A song I wrote
 date: 2022-02-16
 layout: layouts/post.njk
 permalink: "/posts/fastBoats-3/"

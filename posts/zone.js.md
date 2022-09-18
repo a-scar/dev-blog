@@ -1,6 +1,6 @@
 ---
 title: 'NgZone, Change Detection, & Reactivity in Angular'
-description: How Zone.js works within Angular and what the future holds for reactivity
+description: What is NgZone and how does it work within Angular? What might the future hold for reactivity?
 date: 2022-09-13
 layout: layouts/post.njk
 permalink: "/posts/zone.js/"

@@ -1,6 +1,6 @@
 ---
 title: 'Making Union types click'
-description: Making Union types click in Typescript
+description: Looking at Union Types and their use-cases
 date: 2022-03-12
 tags:
 - Typescript
