@@ -1,5 +1,5 @@
 ---
-title: 'Zone.js, Change Detection, & Reactivity in Angular'
+title: 'NgZone, Change Detection, & Reactivity in Angular'
 description: How Zone.js works within Angular and what the future holds for reactivity
 date: 2022-09-13
 layout: layouts/post.njk
