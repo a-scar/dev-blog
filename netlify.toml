@@ -1,3 +1,4 @@
 [build]
   publish = "_site"
-  command = "DEBUG=* @11ty/eleventy"
+  command = "DEBUG=* npx eleventy"
+
